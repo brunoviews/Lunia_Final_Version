@@ -8,3 +8,9 @@
     text-shadow: 0 0 5px rgba(255, 0, 127, 0.75), 0 0 10px rgba(255, 0, 127, 0.5);
   
   }
+
+  @media (max-width: 768px) {
+    .FooterImage {
+      font-size: 0.8rem;
+    }
+  }

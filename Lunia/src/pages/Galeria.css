@@ -81,6 +81,33 @@
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
 
+    
+
+    .imagen-galeria {
+        height: 100px;
+        width: 100px;
+    }
+
+    .imagen-container {
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    .galeria-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
+        
+        margin: 0 auto;
+    }
+
+    .filter-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+   
 }
 
 /* Título de los personajes en la galería */
